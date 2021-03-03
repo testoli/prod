@@ -10,6 +10,7 @@ IS
   X_privilege VARCHAR2(200);
   X_grantable VARCHAR2(200);
   /* unnoetige Variable */
+  Z_dummy varchar2(100);
 BEGIN
   BEGIN
 SELECT SAL_EMP_ID, 
