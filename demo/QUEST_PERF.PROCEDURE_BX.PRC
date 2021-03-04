@@ -11,6 +11,7 @@ IS
   X_grantable VARCHAR2(200);
   /*Kommentar*/
   X_test varchar2(29);
+  Z_test varhchar2(80);
 BEGIN
   BEGIN
 SELECT SAL_EMP_ID, 
