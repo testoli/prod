@@ -9,6 +9,8 @@ IS
   X_GRANTEE VARCHAR2(200);
   X_privilege VARCHAR2(200);
   X_grantable VARCHAR2(200);
+  /*Kommentar*/
+  X_test varchar2(29);
 BEGIN
   BEGIN
 SELECT SAL_EMP_ID, 
